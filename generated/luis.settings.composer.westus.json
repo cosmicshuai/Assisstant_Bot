@@ -1,0 +1,10 @@
+{
+    "luis": {
+        "assistant_core_en_us_lu": {
+            "appId": "4e1ab530-14b8-458a-882a-b5f9851c44ee"
+        },
+        "ChitchatDialog_en_us_lu": {
+            "appId": "88ebc6aa-73c0-41ef-9c80-2cbea5da9dc5"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "qna": {
+        "assistant_core_en_us_qna": "5bb75224-68de-437d-913d-bf2ec096c589",
+        "hostname": "https://shuwanqna.azurewebsites.net/qnamaker",
+        "ChitchatDialog_en_us_qna": "5bb75224-68de-437d-913d-bf2ec096c589"
+    }
+}

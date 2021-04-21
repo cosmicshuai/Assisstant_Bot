@@ -1,0 +1,28 @@
+{
+  "profileName": "Assisstant",
+  "jobId": "c4ac68ae-e4d9-4f3e-8a71-e030f4c41d42",
+  "projectId": "65098.32630387309",
+  "time": "2021-04-21T03:00:14.072Z",
+  "log": [
+    "Creating Azure resources...",
+    "Checking the Existence of the Resource Group ...",
+    "Use the Resource Group: shuwan at eastasia",
+    "> Creating App Registration ...",
+    "Start to add password for App, Id : 89081c3d-5cc5-45b6-a468-13f3c6177fc6",
+    "> Create App Registration Success! ID: 89081c3d-5cc5-45b6-a468-13f3c6177fc6",
+    "Deploying Web App Resource ...",
+    "Deploying Bot Resource ...",
+    "Deploying Cosmos DB Resource ...",
+    "Deploying Application Insights Resource ...",
+    "> Linking Application Insights settings to Bot Service ...",
+    "> AppInsights AppId: 61a772e3-00e5-4b24-860a-b836f395dd3f ...",
+    "> AppInsights InstrumentationKey: 95da62b2-fcce-4b55-8117-417c73efd87a ...",
+    "> AppInsights ApiKey: 03lh5iw88yucbfgdije8r5m2enurln2jygjzritk ...",
+    "> Linking Application Insights settings to Bot Service Success!",
+    "Deploying Blob Storage Resource ...",
+    "Deploying Luis Authoring Resource ...",
+    "{\"stack\":\"Error: Insufficient quota. Cannot create/update/move resource 'TestAssisstant-luis-authoring'.\\n    at new RestError2 (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:159359:26)\\n    at C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:160280:27\\n    at async AzureResourceMananger.deployLuisAuthoringResource (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:253796:28)\\n    at async BotProjectProvision.create (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:254694:46)\\n    at async AzurePublisher.asyncProvision (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:255109:34)\",\"message\":\"Insufficient quota. Cannot create/update/move resource 'TestAssisstant-luis-authoring'.\",\"code\":\"InsufficientQuota\",\"statusCode\":400,\"request\":{\"body\":\"{\\\"kind\\\":\\\"LUIS.Authoring\\\",\\\"location\\\":\\\"westus\\\",\\\"sku\\\":{\\\"name\\\":\\\"F0\\\"}}\"},\"response\":{\"body\":\"{\\\"error\\\":{\\\"code\\\":\\\"InsufficientQuota\\\",\\\"message\\\":\\\"Insufficient quota. Cannot create/update/move resource 'TestAssisstant-luis-authoring'.\\\"}}\"},\"body\":{}}",
+    "{\"name\":\"CREATE_LUIS_AUTHORING_RESOURCE_ERROR\",\"message\":\"Error - Insufficient quota. Cannot create/update/move resource 'TestAssisstant-luis-authoring'.\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:253087:25)\\n    at createCustomizeError (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:253092:10)\\n    at AzureResourceMananger.deployLuisAuthoringResource (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:253819:13)\"}",
+    "Provisioning completed 6 items before encountering a problem. {\"name\":\"CREATE_LUIS_AUTHORING_RESOURCE_ERROR\",\"message\":\"Error - Insufficient quota. Cannot create/update/move resource 'TestAssisstant-luis-authoring'.\",\"stack\":\"Error\\n    at new CustomizeError (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:253087:25)\\n    at createCustomizeError (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:253092:10)\\n    at AzureResourceMananger.deployLuisAuthoringResource (C:\\\\Program Files\\\\Bot Framework Composer\\\\resources\\\\app.asar.unpacked\\\\extensions\\\\azurePublish\\\\dist\\\\extension.js:253819:13)\"}. See provision.Assisstant.log in your bot folder"
+  ]
+}
